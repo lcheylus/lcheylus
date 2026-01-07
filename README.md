@@ -13,4 +13,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-![Laurent Cheylus Github stats](profile/github-stats.svg)
+[![Laurent Cheylus Github stats](profile/github-stats.svg)](https://github.com/readme-tools/github-readme-stats)
