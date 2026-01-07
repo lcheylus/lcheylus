@@ -15,7 +15,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=false&show=reviews,prs_merged,prs_merged_percentage
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=false
           path: profile/github-stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
