@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  generate-stats:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -18,3 +18,11 @@ jobs:
           options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=false
           path: profile/github-stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit stats card
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "Update GitHub stats for $(date +'%Y-%m-%d')" || exit 0
+          git push
