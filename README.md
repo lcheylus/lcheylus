@@ -13,4 +13,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-[![Laurent Cheylus Github stats](https://github-readme-stats.vercel.app/api?username=lcheylus&show_icons=true&include_all_commits=false)](https://github.com/anuraghazra/github-readme-stats)
+![Laurent Cheylus Github stats](profile/github-stats.svg)
