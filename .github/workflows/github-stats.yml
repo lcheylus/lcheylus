@@ -21,6 +21,7 @@ jobs:
           options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=false
           path: profile/github-stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
 
       - name: Commit stats card
         run: |
