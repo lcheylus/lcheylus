@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Laurent Cheylus&#39; GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 62, Total Commits  (last year) : 1084, Total PRs: 519, Total Issues: 386, Contributed to (last year): 37</desc>
+        <desc id="descId">Total Stars Earned: 62, Total Commits  (last year) : 1085, Total PRs: 522, Total Issues: 386, Contributed to (last year): 36</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 65.70153909358329;
+        stroke-dashoffset: 65.69387579954908;
       }
     }
   
@@ -199,7 +199,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >519</text>
+      >522</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -229,7 +229,7 @@
         x="224.01"
         y="12.5"
         data-testid="contribs"
-      >37</text>
+      >36</text>
     </g>
   </g>
     </svg>
